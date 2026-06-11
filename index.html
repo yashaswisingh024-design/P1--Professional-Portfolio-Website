@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashaswi Singh | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">YS.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Hi, I'm <span>Yashaswi Singh</span></h1>
+
+            <h2 id="typing-text">
+                Computer Engineering Student
+            </h2>
+
+            <p>
+                Passionate about Web Development, Software Development,
+                and Problem Solving. Building projects that create
+                real-world impact.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+<a href="resume.pdf" download class="btn btn-secondary">
+    <i class="fas fa-download"></i>
+    Download Resume
+</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <p>
+                I am a Computer Engineering student at
+                A.P. Shah Institute of Technology with a strong
+                interest in Software Development, Web Development,
+                and Data Structures & Algorithms.
+
+                I enjoy transforming ideas into practical solutions
+                and have worked on projects ranging from smart-city
+                platforms to civic-tech applications.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills section">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress js"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress python"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>C / C++</h3>
+                <div class="progress-bar">
+                    <div class="progress cpp"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects section">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-filters">
+
+            <button class="filter-btn active"
+                data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn"
+                data-filter="web">
+                Web
+            </button>
+
+            <button class="filter-btn"
+                data-filter="civic">
+                Civic-Tech
+            </button>
+
+            <button class="filter-btn"
+                data-filter="python">
+                Python
+            </button>
+
+        </div>
+
+        <div class="projects-container">
+
+            <!-- Urban Pulse -->
+
+            <div class="project-card"
+                data-category="civic">
+
+                <h3>Urban Pulse</h3>
+
+                <p>
+                    Smart-city intelligence platform developed
+                    for Google Solution Challenge 2026.
+                </p>
+
+                <div class="tech">
+                    HTML • CSS • TypeScript • Firebase
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/yashaswisingh024-design/Urban_Pulse">
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Matdaan Mitra -->
+
+            <div class="project-card"
+                data-category="civic">
+
+                <h3>Matdaan Mitra</h3>
+
+                <p>
+                    Civic-tech platform designed to simplify
+                    election awareness and voter information.
+                </p>
+
+                <div class="tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+            </div>
+
+
+            <!-- Landing Page -->
+
+            <div class="project-card"
+                data-category="web">
+
+                <h3>Startup Landing Page</h3>
+
+                <p>
+                    Responsive landing page featuring modern UI,
+                    sticky navigation and pricing plans.
+                </p>
+
+                <div class="tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section">
+
+    <h2 class="section-title">Experience</h2>
+
+    <!-- Navyan -->
+
+    <div class="experience-card">
+
+        <h3>Web Developer Intern</h3>
+
+        <p>Navyan Technologies | Present</p>
+
+        <ul>
+            <li>Developing responsive and user-friendly web applications.</li>
+            <li>Building modern interfaces using HTML, CSS, and JavaScript.</li>
+            <li>Collaborating on real-world development projects.</li>
+            <li>Implementing responsive design and performance optimization techniques.</li>
+        </ul>
+
+    </div>
+
+    <!-- Sam AI Technologies -->
+
+    <div class="experience-card">
+
+        <h3>Android App Developer Intern</h3>
+
+        <p>Sam AI Technologies | Present</p>
+
+        <ul>
+            <li>Contributing to Android application development projects.</li>
+            <li>Working on mobile UI implementation and app functionality.</li>
+            <li>Participating in testing, debugging, and feature enhancement.</li>
+            <li>Learning industry-standard mobile development workflows.</li>
+        </ul>
+
+    </div>
+
+    <!-- Codec Technologies -->
+
+    <div class="experience-card">
+
+        <h3>Python Developer Intern</h3>
+
+        <p>Codec Technologies | 2 Months</p>
+
+        <ul>
+            <li>Developed Expense Tracker application.</li>
+            <li>Built Currency Converter application.</li>
+            <li>Created Password Strength Checker.</li>
+            <li>Applied Python programming concepts and problem-solving techniques.</li>
+        </ul>
+
+    </div>
+
+</section>
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section id="certifications" class="section">
+
+        <h2 class="section-title">Certifications</h2>
+
+        <ul class="cert-list">
+
+            <li>Web Development – Navyan</li>
+            <li>DSA Fundamentals – Simplilearn</li>
+            <li>Android App Development – Sam AI Technologies</li>
+            <li>Python Developer Internship – Codec Technologies</li>
+            <li>Tata Data Analytics – Forage</li>
+            <li>Deloitte Data Analytics – Forage</li>
+
+        </ul>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-links">
+
+            <a href="mailto:yashaswisingh024@gmail.com">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+
+            <a href="https://github.com/yashaswisingh024-design">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/yashaswi-singh-167108385">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+        <p>
+            © 2026 Yashaswi Singh | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
