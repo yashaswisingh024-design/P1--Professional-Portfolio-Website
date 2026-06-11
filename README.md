@@ -33,5 +33,5 @@ A modern personal portfolio website to showcase my skills, projects, and contact
 
 ## 📬 Contact
 
-- Email: yourmail@example.com  
-- LinkedIn: your-linkedin  
+- Email: yashaswisingh024@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/yashaswi-singh-167108385/
