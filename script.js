@@ -37,10 +37,10 @@ themeToggle.addEventListener("click", () => {
 // ===============================
 
 const roles = [
-    "Computer Engineering Student",
+    "Artificial Intelligence Intern",
     "Web Developer",
     "Python Developer",
-    "Android Developer"
+    "Computer Engineering Student"
 ];
 
 const typingText =
